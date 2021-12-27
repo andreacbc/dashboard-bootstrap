@@ -1,0 +1,9 @@
+<div class="widget estadisticas">
+    <h3 class="titulo"> Estadisticas</h3>
+    <div class="contenedor d-flex flex-wrap">
+        <div class="caja" *ngFor="let valor of valores">
+            <h3>{{valor.cantidad}}</h3>
+            <p>{{valor.titulo}}</p>
+        </div>
+    </div>
+</div>

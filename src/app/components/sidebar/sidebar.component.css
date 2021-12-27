@@ -1,0 +1,64 @@
+:host {
+    display: contents;
+}
+
+h6 {
+    display: inline-block;
+    margin-bottom: 0;
+}
+
+.barra-lateral {
+    background: #262a34;
+    color:#fff;
+    min-width: 18.75rem;
+    min-height: 100vh;
+}
+
+.logo {
+    background: #0275db;
+}
+
+.logo h2 {
+    font-size: 1.86rem;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+}
+    
+.menu a {
+    color:#fff;
+    display: block;
+    padding: 1.25rem;
+    font-family: 'Roboto', sans-serif;
+    border-bottom: 1px solid rgba(255,255,255,.1);
+}
+
+.menu a:hover {
+    background: #35ae6b;
+}
+
+.menu a svg {
+    margin-right: 0.63rem;
+}
+
+@media screen and (max-width: 75rem){
+
+    .barra-lateral {
+        min-width: auto;
+    }
+
+    .logo {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 36rem){
+    .barra-lateral {
+        min-height: auto;
+        min-width: 100vw;
+    }
+
+    .menu a h6 {
+        display: none;
+    }
+}

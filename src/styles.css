@@ -1,1 +1,31 @@
 /* You can add global styles to this file, and also import other style files */
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&family=Roboto:wght@300;400;500&display=swap');
+
+
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #f2f2f2;
+    font-size: 1rem;
+    font-family: 'Open Sans', sans-serif;
+}
+
+a {
+    text-decoration: none;
+}
+
+.titulo {
+    color: #262a34;
+    font-size: 1.56rem;
+    font-weight: 500;
+    font-family: 'Roboto', sans-serif;
+    margin-bottom: 1.25rem;
+}
+
+.widget {
+    margin-bottom: 2.5rem;
+}
+
